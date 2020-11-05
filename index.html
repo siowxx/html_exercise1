@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
     <form action="/" method="post" enctype="text/plain">
-        <label>Name:</label><br>
-        <input type="text" name="name">
+        <div class="top-container">
+            <label id="name">Name:</label><br>
+            <input type="text" name="name">
+        </div>
+       
         <br>
         <label>Address:</label><br>
         <input type="text" name="address"><br>
@@ -23,7 +27,7 @@
         <label>Photo</label><br>
         <input type="file" id="myFile" name="filename"><br>
         
-        <button>reset</button> <input type="submit">
+        <button type="reset">reset</button> <button type="submit">send</button>
     </form>
 
 </body>

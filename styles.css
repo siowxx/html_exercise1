@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    
+}
+
+.top-container{
+    border: 5px dotted gold;
+    background-color: silver;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#name{
+    font-size: 20px;
+    color: blue;    
+}
